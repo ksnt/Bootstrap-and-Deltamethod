@@ -1,0 +1,20 @@
+    n,     10,        100,      1000, 10000
+Delta,     0.928000,  0.948000, 0.955000
+Bootstrap, 0.918000,  0.947000, 0.951000
+
+#n=10
+#$python boot6.0.1.py 10
+#Result of Delta-method is : 0.928000
+#Result of Bootstrap-method is : 0.918000
+
+#n=100
+$ python boot6.0.1.py 100
+Result of Delta-method is : 0.948000
+Result of Bootstrap-method is : 0.947000
+
+#n=1000
+Result of Delta-method is : 0.955000
+Result of Bootstrap-method is : 0.951000
+
+
+
