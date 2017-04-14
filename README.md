@@ -1,2 +1,3 @@
 # Bootstrap and Deltamethod
-Bootstrap and Deltamethod in Python
+Bootstrap method and Delta method in Python
+
