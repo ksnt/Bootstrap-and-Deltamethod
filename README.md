@@ -1,6 +1,10 @@
 # Sampling library - Bootstrap and Deltamethod
 Bootstrap method and Delta method impletation in Python (Some method would be added)
 
+# How to use
+
+NOW I AM WRITING DOCUMENTATION
+
 # How to install this library
 
 ## Ubuntu
