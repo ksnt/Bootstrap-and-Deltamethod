@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup,find_packages
 
 setup(name='sampling',
       version='0.1',
@@ -7,5 +7,7 @@ setup(name='sampling',
       author='Takayuki Kaisen',
       author_email='ksn0215@gmail.com',
       license='MIT',
-      packages=['sampling'],
-      zip_safe=False)
+      packages=find_packages(),
+      zip_safe=False
+       
+)
