@@ -3,7 +3,7 @@ Bootstrap method and Delta method impletation in Python (Some method would be ad
 
 # How to use
 
-NOW I AM WRITING DOCUMENTATION
+NOW I AM WRITING DOCUMENT
 
 # How to install this library
 
