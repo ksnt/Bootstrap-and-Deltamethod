@@ -3,7 +3,13 @@ Bootstrap method and Delta method impletation in Python (Some method would be ad
 
 # How to use
 
-NOW I AM WRITING DOCUMENT
+***NOW I AM WRITING DOCUMENT ***
+```
+>>> import sampling
+>>> x = np.random.uniform(0,1,10)
+>>> sampling.delta(x,10)
+```
+
 
 # How to install this library
 
