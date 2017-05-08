@@ -14,7 +14,9 @@ Bootstrap method and Delta method impletation in Python (Some method would be ad
 # How to install this library
 
 ## Ubuntu
+```
 $sudo pip3 install git+https://github.com/ksnt/Bootstrap-and-Deltamethod.git
+```
 
 ## Other OS
 I guess you can install using pip in the same way as Ubuntu.
