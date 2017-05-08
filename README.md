@@ -22,7 +22,7 @@ $sudo pip3 install git+https://github.com/ksnt/Bootstrap-and-Deltamethod.git
 I guess you can install using pip in the same way as Ubuntu.
 
 # Reference
-You can easily find useful information about Bootstrapping and Delta method from sites such as links below. I recommend Efron's articles and books regarding Bootstrap such as "The Jackknife,the Bootstrap and Other Resampling Plans". As for Delta method, I think some books on econometrics and mathematical statistics are useful; for example, you can find in a manuscript titled "Econometrics" by Bruce E. Hansen. The article is free.
+You can easily find useful information about Bootstrapping and Delta method from sites such as links below. I recommend Efron's articles and books regarding Bootstrap such as **"The Jackknife,the Bootstrap and Other Resampling Plans"**. As for Delta method, I think some books on econometrics and mathematical statistics are useful; for example, you can find in a manuscript titled **"Econometrics" by Bruce E. Hansen**. The article is free.
 
 Bootstrap method: https://en.wikipedia.org/wiki/Bootstrapping_(statistics) <br>
 Delta method: https://en.wikipedia.org/wiki/Delta_method
