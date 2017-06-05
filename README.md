@@ -24,7 +24,6 @@ I guess you can install using pip in the almost same way as Ubuntu.
 
 # Overview of the Delta Method
 
-<img src="https://cloud.githubusercontent.com/assets/530390/26770504/716148a6-49f2-11e7-80be-5f28a5db4582.gif" />
 
 # Overview of the Bootstrap Method
 
