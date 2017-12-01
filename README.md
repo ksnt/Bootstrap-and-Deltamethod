@@ -1,5 +1,5 @@
 # Sampling library - Bootstrap and Deltamethod
-Bootstrap method and Delta method implementation　in Python (Some method would be added)
+Bootstrap method and Delta method implementation in Python (Some method would be added)
 
 # How to use
 
