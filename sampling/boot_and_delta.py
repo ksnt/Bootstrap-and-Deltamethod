@@ -39,7 +39,7 @@ def boot(x,n):
     T = 1000
     for t in range(T):
         new_x_list = []
-        [new_x_list.append(x[i]) for i in map(np.floor,np.random.uniform(0,n,n))]
+        [new_x_list.append(x[i]) for i in map(int,map(np.floor,np.random.uniform(0,n,n)))]
         g_theta_list.append(1/np.mean(new_x_list))
     g_theta_list.sort()
     lower_bound = g_theta_list[24]
