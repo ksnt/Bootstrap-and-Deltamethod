@@ -1,17 +1,48 @@
 # Sampling library - Bootstrap and Deltamethod
-
-This should be a library for Bootstrap method and Delta method implementation in Python.  
-
-I would like to refactor and write how to use, but I do have enough power now...  
+Bootstrap method and Delta method implementation in Python (Some method would be added)
 
 ## How to use
 
-**NOW I AM WRITING DOCUMENT**
+### Environment
+
+Python2.7
 
 ## How to install this library
 
+### Linux(Ubuntu)
 ```
-$pip install git+https://github.com/ksnt/Bootstrap-and-Deltamethod.git
+$sudo pip install git+https://github.com/ksnt/Bootstrap-and-Deltamethod.git
+```
+
+### Delta Method
+
+$python # Go into Python!
+```sh
+>>> import sampling
+>>> import numpy as np
+>>> n = 1000 # The number of sampling
+>>> S = 1000
+>>> dm_result = [] # Result of Delta method
+>>> for s in range(int(S)):
+...     x = np.random.uniform(0,1,n)
+...     dm_result.append(sampling.delta(x,n))
+... 
+>>> print("Result of Delta-method is : %f" % (np.sum(dm_result)/S) )
+Result of Delta-method is : 0.953000
+```
+
+### Bootstrap Method
+```sh
+>>> import sampling
+>>> import numpy as np
+>>> n = 1000 # The number of sampling
+>>> S = 1000
+>>> bs_result = [] # Result of Bootstrap method
+>>> for s in range(int(S)):
+...     x = np.random.uniform(0,1,n)
+...     bs_result.append(sampling.boot(x,n))
+... 
+>>> print("Result of Delta-method is : %f" % (np.sum(bs_result)/S) )
 ```
 
 ## Overview of the Delta Method
