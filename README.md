@@ -10,7 +10,7 @@ Python2.7
 ## How to install this library
 
 ```
-$sudo pip install git+https://github.com/ksnt/Bootstrap-and-Deltamethod.git
+$pip install git+https://github.com/ksnt/Bootstrap-and-Deltamethod.git
 ```
 
 ### Delta Method
