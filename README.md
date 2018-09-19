@@ -3,7 +3,7 @@ Bootstrap method and Delta method implementation in Python (Some method would be
 
 ## How to use
 
-***NOW I AM WRITING DOCUMENT ***
+**NOW I AM WRITING DOCUMENT**
 
 ## How to install this library
 
