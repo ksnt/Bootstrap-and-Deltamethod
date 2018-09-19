@@ -1,5 +1,8 @@
 # Sampling library - Bootstrap and Deltamethod
-Bootstrap method and Delta method implementation in Python (Some method would be added)
+
+This should be a library for Bootstrap method and Delta method implementation in Python.  
+
+I would like to refactor and write how to use, but I do have enough power now...  
 
 ## How to use
 
@@ -7,14 +10,9 @@ Bootstrap method and Delta method implementation in Python (Some method would be
 
 ## How to install this library
 
-### Linux(Ubuntu)
 ```
-$sudo pip3 install git+https://github.com/ksnt/Bootstrap-and-Deltamethod.git
+$pip install git+https://github.com/ksnt/Bootstrap-and-Deltamethod.git
 ```
-
-### Other OS
-I guess you can install using pip in the almost same way as Ubuntu.
-
 
 ## Overview of the Delta Method
 
