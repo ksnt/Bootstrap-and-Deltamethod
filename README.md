@@ -32,6 +32,7 @@ Result of Delta-method is : 0.953000
 ```
 
 ### Bootstrap Method
+$python # Go into Python!
 ```sh
 >>> import sampling
 >>> import numpy as np
