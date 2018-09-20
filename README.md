@@ -1,6 +1,8 @@
 # Sampling library - Bootstrap and Deltamethod
 Bootstrap method and Delta method implementation in Python (Some method would be added)
 
+I want to refactor this code but this code has not changed for a long time...  
+
 ## How to use
 
 ### Environment
