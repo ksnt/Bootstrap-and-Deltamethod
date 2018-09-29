@@ -49,7 +49,12 @@ $python # Go into Python!
 
 ## Overview of the Delta Method
 
-TBA  
+$$
+\begin{eqnarray}
+4a &=& ((a+a)+a)+a \\
+   &=& (a+a)+(a+a)
+\end{eqnarray}
+$$
 
 ## Overview of the Bootstrap Method
 
