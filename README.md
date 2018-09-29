@@ -49,16 +49,11 @@ $python # Go into Python!
 
 ## Overview of the Delta Method
 
-$$
-\begin{eqnarray}
-4a &=& ((a+a)+a)+a \\
-   &=& (a+a)+(a+a)
-\end{eqnarray}
-$$
+PDF file would be added.  
 
 ## Overview of the Bootstrap Method
 
-TBA  
+PDF file would be added.  
 
 ## Result
 
