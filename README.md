@@ -1,6 +1,8 @@
 # Sampling library - Bootstrap and Deltamethod
 Bootstrap method and Delta method implementation in Python (Some method would be added)
 
+I want to refactor this code but this code has not changed for a long time...  
+
 ## How to use
 
 ### Environment
@@ -9,9 +11,8 @@ Python2.7
 
 ## How to install this library
 
-### Linux(Ubuntu)
 ```
-$sudo pip install git+https://github.com/ksnt/Bootstrap-and-Deltamethod.git
+$pip install git+https://github.com/ksnt/Bootstrap-and-Deltamethod.git
 ```
 
 ### Delta Method
@@ -48,11 +49,11 @@ $python # Go into Python!
 
 ## Overview of the Delta Method
 
-TBA  
+PDF file would be added.  
 
 ## Overview of the Bootstrap Method
 
-TBA  
+PDF file would be added.  
 
 ## Result
 
@@ -62,7 +63,7 @@ TBA
 |Bootstrap  |    0.918000|    0.947000| 0.951000   |
 
 ## Reference
-You can easily find useful information about Bootstrapping and Delta method from sites such as links below. I recommend Efron's articles and books regarding Bootstrap such as **"The Jackknife,the Bootstrap and Other Resampling Plans" by Bradley Efron**. As for Delta method, I think some books on econometrics and mathematical statistics are useful; for example, you can find in a manuscript titled **["Econometrics" by Bruce E. Hansen](http://www.ssc.wisc.edu/~bhansen/econometrics/)**. The article is free.
+You can easily find useful information about Bootstrapping and Delta method from sites such as links below. I recommend Efron's articles and books regarding Bootstrap such as **"The Jackknife,the Bootstrap and Other Resampling Plans" by Bradley Efron**. As for Delta method, I think some books on econometrics and mathematical statistics are useful; for example, you can find useful information in a manuscript titled **["Econometrics" by Bruce E. Hansen](http://www.ssc.wisc.edu/~bhansen/econometrics/)**. This article is free and seems praised as a great book by econometricians.  
 
-Bootstrap method: https://en.wikipedia.org/wiki/Bootstrapping_(statistics) <br>
+Bootstrap method: https://en.wikipedia.org/wiki/Bootstrapping_(statistics)  
 Delta method: https://en.wikipedia.org/wiki/Delta_method
