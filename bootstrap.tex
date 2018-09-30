@@ -1,0 +1,58 @@
+\documentclass[twocolumn,10pt]{article}
+\setlength{\topmargin}{-0.3in}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\evensidemargin}{0pt}
+\setlength{\textheight}{46\baselineskip}
+\setlength{\textwidth}{47zw}
+
+
+\pagestyle{plain}
+\pagenumbering{arabic}
+
+\renewcommand{\rmdefault}{ptm}
+\renewcommand{\appendixname}{Appendix~}
+\usepackage[dvipdfm]{graphicx}
+\usepackage{amsmath}
+%\usepackage{txfonts}
+\usepackage{booktabs}
+\usepackage{rotating}
+\usepackage{amssymb,graphicx,array,enumerate,theorem,dcolumn}
+\usepackage{indentfirst}
+
+% 文献リスト
+\newcommand{\bib}[1]{\hangafter=1\hangindent=5mm\noindent#1}
+
+\begin{document}
+
+\title{Bootstrap Method}
+\author{ksnt}
+\date{\today}
+
+\maketitle
+
+\section{Algorithm}
+
+Data: $y_1, \dots , y_n \sim i.i.d ~~ (\mu,\sigma_{Y}^2)$ 
+
+\subsection*{Step1:  Calculate mean and deviation} \par 
+
+$ \overline{\mu_{Y}} = \frac{1}{n} \sum_{i=1}^{n} y_i $
+
+\par
+
+$\widehat{S_{Y}^2} = \frac{1}{n-1} (y_i - \overline{\mu_{Y}})^2$
+ 
+\subsection*{Step2: Repeat below S times (s=1,2,\dots,S) \footnote{Usually, 1000 times needed. If could, 10000 times is better. Bigger number of repeat is better.}} \par 
+
+1. $y_{1}^B, \dots, y_m^{B} \sim (y_1, \dots y_m)$   duplicated samples
+
+2.$ \overline{\mu^{B}_{s}} = \frac{1}{n} \sum_{i=1}^{n} y^{B}_i$
+
+After S times repeat, we get $ \overline{\mu^{B}_{1}}, \dots, \overline{\mu^{B}_{S}} $
+
+\subsection*{Step3: Sort $ \overline{\mu^{B}_{1}} < \overline{\mu^{B}_{2}}, \dots, < \overline{\mu^{B}_{S}}$  \footnote{Here, normal distribution is not assumed.} }
+
+95\% Confidence interval is between $\overline{\mu^{B}_{2}}$ and $\overline{\mu^{B}_{S-1}}$
+
+
+\end{document}
