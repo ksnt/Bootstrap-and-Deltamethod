@@ -53,7 +53,7 @@ PDF file would be added.
 
 ## Overview of the Bootstrap Method
 
-PDF file would be added.  
+[Algorithm of Bootstrap Method](https://github.com/ksnt/Bootstrap-and-Deltamethod/blob/master/doc/bootstrap.pdf)
 
 ## Result
 
