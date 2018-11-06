@@ -2,7 +2,8 @@
 Bootstrap method and Delta method implementation in Python (Some method would be added)
 
 I want to refactor this code but this code has not been changed for a long time...  
-I wnat to rewrite this code for Python 3.x.  
+I remember this code was written in Summer 2013.  
+I want to rewrite this code for Python 3.x.  
 
 ## How to use
 
